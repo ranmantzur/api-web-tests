@@ -81,9 +81,3 @@ function testPostEndpoint() {
 
   const request = require('request');
 const { expect } = require('chai');
-
-// function getPetById(petId) {
-//   const url = `https://petstore.swagger.io/v2/pet/${petId}`;
-//   const response = request.request('GET', url);
-//   const pet = response.json();
-//   return [pet, response]
